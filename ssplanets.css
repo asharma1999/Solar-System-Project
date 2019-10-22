@@ -1,0 +1,285 @@
+/*Details for allowing to movement of planets.*/
+@-webkit-keyframes spin {
+  from { transform: rotate(0); }
+  to { transform: rotate(-360deg); }
+}
+
+/*Background of the universe.*/
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color:#000000
+}
+
+/*Details for the sun.*/
+#sun{
+    background: linear-gradient(rgb(255, 66, 0), rgb(255, 170, 0));
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    z-index: 4;
+    border-radius: 100%;
+    box-shadow: 2px 2px 10px #444444;
+}
+
+/*Details for the planet Mercury and its orbit arounds its axis.*/
+#Mercury{
+  background: linear-gradient(brown, blue);
+  position: absolute;
+  width: 7.6px;
+  height: 7.6px;
+  top: 50%;
+  left: 0;
+  margin-top: -3.8px;
+  border-radius: 100%;
+
+  -webkit-animation: spin 5097600s linear infinite;
+}
+
+/*Details for Mercury's orbit around the sun.*/
+#MercuryOrbit{
+  position: absolute;
+  width: 162.5px;
+  height: 162.5px;
+  top: 50%;
+  left: 50%;
+  margin-top: -81.25px;
+  margin-left: -81.25px;
+  z-index: 4;
+  border-radius: 100%;
+
+  -webkit-animation: spin 7603200s linear infinite;
+}
+
+/*Details for the planet Venus and its orbit around its axis.*/
+#Venus{
+  background: linear-gradient(yellow, brown);
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 50%;
+  left: 0;
+  margin-top: -9.5px;
+  border-radius: 100%;
+
+  -webkit-animation: spin 20995200s linear infinite;
+}
+
+/*Details for Venus' orbit around the sun.*/
+#VenusOrbit{
+  position: absolute;
+  width: 225px;
+  height: 225px;
+  top: 50%;
+  left: 50%;
+  margin-top: -112.5px;
+  margin-left: -112.5px;
+  z-index: 4;
+  border-radius: 100%;
+
+  -webkit-animation: spin 19440000s linear infinite;
+}
+
+/*Details for the planet Earth and its orbit around its axis.*/
+#Earth{
+  background: linear-gradient(green, blue);
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 0;
+  margin-top: -10px;
+  border-radius: 100%;
+
+  -webkit-animation: spin 86400s linear infinite;
+}
+
+/*Details for Earth's orbit around the sun.*/
+#EarthOrbit{
+  position: absolute;
+  width: 287.5px;
+  height: 287.5px;
+  top: 50%;
+  left: 50%;
+  margin-top: -143.25px;
+  margin-left: -143.25px;
+  z-index: 4;
+  border-radius: 100%;
+
+  -webkit-animation: spin 31536000s linear infinite;
+}
+
+/*Details for the Moon and its orbit arounds its axis.*/
+#Moon{
+  position: absolute;
+  background: gray;
+  width: 5.4px;
+  height: 5.4px;
+  border-radius: 100%;
+
+  -webkit-animation: spin 2332800s linear infinite;
+
+}
+
+/*Details for Moon's orbit around the planet Earth.*/
+#MoonOrbit{
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  left: -3px;
+  margin-top: -12.5px;
+  border-radius: 100%;
+
+  -webkit-animation: spin 2332800s linear infinite;
+}
+
+/*Details for the planet Mars and its orbit around its axis.*/
+#Mars{
+  background: linear-gradient(brown, yellow);
+  position: absolute;
+  width: 10.6px;
+  height: 10.6px;
+  top: 50%;
+  left: 0;
+  margin-top: -5.3px;
+  border-radius: 100%;
+
+  -webkit-animation: spin 88560s linear infinite;
+}
+
+/*Details for Mars' orbit around the sun.*/
+#MarsOrbit{
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: 50%;
+  left: 50%;
+  margin-top: -175px;
+  margin-left: -175px;
+  z-index: 4;
+  border-radius: 100%;
+
+  -webkit-animation: spin 59356800s linear infinite;
+}
+
+/*Details for the planet Jupiter and its orbit around its axis.*/
+#Jupiter{
+  background: linear-gradient(brown, red);
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 0;
+  margin-top: -15px;
+  border-radius: 100%;
+
+  -webkit-animation: spin 36000s linear infinite;
+}
+
+/*Details for Mars and its orbit around the sun.*/
+#JupiterOrbit{
+  position: absolute;
+  width: 412.5px;
+  height: 412.5px;
+  top: 50%;
+  left: 50%;
+  margin-top: -206.25px;
+  margin-left: -206.25px;
+  z-index: 4;
+  border-radius: 100%;
+
+  -webkit-animation: spin 378432000s linear infinite;
+}
+
+/*Details for the planet Saturn and its orbit around its axis.*/
+#Saturn{
+  background: linear-gradient(brown, yellow);
+  position: absolute;
+  width: 25.3px;
+  height: 25.3px;
+  top: 50%;
+  left: 0;
+  margin-top: -12.65px;
+  border-radius: 100%;
+
+  -webkit-animation: spin 38520s linear infinite;
+}
+
+/*Details for Saturn and its orbit around the sun.*/
+#SaturnOrbit{
+  position: absolute;
+  width: 475px;
+  height: 475px;
+  top: 50%;
+  left: 50%;
+  margin-top: -237.5px;
+  margin-left: -237.5px;
+  z-index: 4;
+  border-radius: 100%;
+
+  -webkit-animation: spin 914544000s linear infinite;
+}
+
+/*Details for the planet Uranus and its orbit around its axis.*/
+#Uranus{
+  background: linear-gradient(blue, white);
+  position: absolute;
+  width: 10.7px;
+  height: 10.7px;
+  top: 50%;
+  left: 0;
+  margin-top: -5.35px;
+  border-radius: 100%;
+
+  -webkit-animation: spin 61200s linear infinite;
+}
+
+/*Details for Uranus and its orbit around the sun.*/
+#UranusOrbit{
+  position: absolute;
+  width: 537.5px;
+  height: 537.5px;
+  top: 50%;
+  left: 50%;
+  margin-top: -268.75px;
+  margin-left: -268.75px;
+  z-index: 4;
+  border-radius: 100%;
+
+  -webkit-animation: spin 2649024000s linear infinite;
+}
+
+/*Details for the planet Neptune and its orbit around its axis.*/
+#Neptune{
+  background: linear-gradient(blue, pink);
+  position: absolute;
+  width: 10.4px;
+  height: 10.4px;
+  top: 50%;
+  left: 0;
+  margin-top: -5.2px;
+  border-radius: 100%;
+
+  -webkit-animation: spin 57600s linear infinite;
+}
+
+/*Details for the Neptune and its orbit around the sun.*/
+#NeptuneOrbit{
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  margin-top: -300px;
+  margin-left: -300px;
+  z-index: 4;
+  border-radius: 100%;
+
+  -webkit-animation: spin 5203440000s linear infinite;
+}
